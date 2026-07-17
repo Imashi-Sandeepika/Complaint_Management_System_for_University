@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['update_status'])) {
     $update_stmt->close();
 }
 
-// Get responses
+// Get responses              
 $responses = [];
 $response_sql = "SELECT cr.*, u.full_name 
                  FROM complaint_responses cr 
