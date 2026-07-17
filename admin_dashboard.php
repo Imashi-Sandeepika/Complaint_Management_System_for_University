@@ -122,7 +122,7 @@ $links['manage_complaints_pending'] = $links['manage_complaints'] !== '#' ? $lin
     </style>
 </head>
 <body>
-    <header>
+    <header>                     
         <div class="container header-container">
             <div class="logo">
                 <img src="css/uniLogoi.png" alt="University Logo" class="logo-img">
