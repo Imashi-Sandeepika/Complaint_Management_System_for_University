@@ -34,7 +34,7 @@ $counts = [
     'pending' => 0,
     'in_progress' => 0,
     'resolved' => 0
-];
+];w
 
 $count_sql = "SELECT status, COUNT(*) as count FROM complaints WHERE user_id = ? GROUP BY status";
 $count_stmt = $conn->prepare($count_sql);
@@ -121,7 +121,7 @@ $conn->close();
             </div>
         </div>
         
-        <!-- Recent Complaints -->
+        <!-- Recent Complaints -->   
         <div class="card">
             <h2><i class="fas fa-history"></i> Recent Complaints</h2>
             
