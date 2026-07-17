@@ -173,7 +173,7 @@ $conn->close();
             <?php endif; ?>
         </div>
         
-        <!-- Quick Actions -->
+        <!-- Quick Actions -->             
         <div class="card">
             <h2><i class="fas fa-bolt"></i> Quick Actions</h2>
             <div style="display: flex; gap: 15px; margin-top: 15px;">
