@@ -4,7 +4,7 @@ require_once 'config/database.php';
 $conn = getDBConnection();
 
 $error = '';
-
+                                                    
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
