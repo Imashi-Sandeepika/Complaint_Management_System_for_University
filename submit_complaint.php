@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $priority = $_POST['priority'];
     $attachment_path = null;
     
-    // Handle file upload
+    // Handle file upload    
     if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == 0) {
         $allowed_types = ['image/jpeg', 'image/png', 'image/gif', 'application/pdf'];
         $max_size = 5 * 1024 * 1024; // 5MB
