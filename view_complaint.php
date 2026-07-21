@@ -169,7 +169,7 @@ $conn->close();
                         <strong>Email:</strong> <?php echo htmlspecialchars($complaint['email']); ?>
                     </div>
                 </div>
-            </div>
+            </div>       
             
             <!-- Admin Responses -->
             <?php if (count($responses) > 0): ?>
