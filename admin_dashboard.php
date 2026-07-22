@@ -230,7 +230,7 @@ $links['manage_complaints_pending'] = $links['manage_complaints'] !== '#' ? $lin
                 <p>No complaints found.</p>
             <?php endif; ?>
         </div>
-        
+                       
         <!-- Quick Actions -->
         <div class="card">
             <h2><i class="fas fa-bolt"></i> Quick Actions</h2>
